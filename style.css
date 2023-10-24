@@ -1,0 +1,210 @@
+body{
+  
+    border: 5px solid red;
+}
+#bg{
+    background-color: coral;
+    background-image: url('Images/WhatsApp\ Image\ 2023-09-26\ at\ 20.39.49.jpg'), url('Images/spider-web-halloween-spider-man-clip-art-spider-ec18cbfa8f36ce8faed86a5ee3689fa5.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left top;
+}
+    
+#border{
+    border-style: solid dashed double dotted;
+    border-width: 5px 10px 2px 7px;
+    border-color: goldenrod rebeccapurple red black;
+    border-radius: 20px;
+}
+
+
+#border2{
+    border-style: double;
+    border-color: blueviolet;
+    border-width: 10px;
+    border-radius: 0px 40px 0px 40px;
+}
+
+#div1{
+    background-color: cadetblue;
+    height: 50%;
+    width: 70%;
+}
+
+#padding{
+    border: 1px solid rebeccapurple;
+    padding: 50px;
+}
+
+.margin{
+    border: 1px solid purple ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#text{
+    width: 500px;
+    border: 1px solid black;
+    color: deeppink;
+    direction: rtl;
+    text-decoration: overline;
+    text-transform: capitalize;
+    line-height: 20px;
+    text-align: justify;
+    text-indent: 50px;
+    letter-spacing: 10px;
+
+}
+
+img{
+    border: 1px solid red;
+    vertical-align: middle;
+}
+
+#text2{
+    margin: 10px;
+    padding: 10px;
+    width: 70%;
+    border: 1px solid black;
+    color: rgb(5, 75, 36);
+    text-decoration: dotted;
+    text-transform: uppercase;
+    text-indent: 30px;
+    word-spacing: 20px;
+    text-align: justify;
+}
+
+#text3{
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 5px 10px 7px red;
+}
+
+#text4{
+    width: 500px;
+    border: 1px solid black;
+    writing-mode: vertical-lr;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+a:link{
+    color: yellowgreen;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: orange;
+}
+
+a:active{
+    color: red;
+}
+
+.font h1{ 
+ color: rgba(3, 20, 20, 0.918);
+ font-weight: 800;
+ text-transform: uppercase;
+ word-spacing: 50px;
+ font-family: 'Pixelify Sans', cursive;
+}
+
+@font-face {
+    font-family: abc;
+    src: url('./Fonts/Sacramento-Regular.ttf');
+}
+
+.font p{
+    font-size: 30px;
+    font-weight: 600;
+    color: cadetblue;
+    font-variant: small-caps;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+
+}
+
+#p2{
+    font-size: 25;
+    color: brown;
+    font-family: abc;
+}
+
+#cursor{
+    border: 1px solid red;
+    cursor: wait;
+}
+
+
+#shadow{
+    border: 1px solid green;
+    width: 500px;
+    background-color: yellowgreen;
+    margin: 100px;
+    padding: 20px;
+    box-shadow: 10px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 10px 15px 5px 3px goldenrod;
+}
+
+#opacity{
+    background-color: rgb(4, 15, 4);
+    height: 200px;
+    width: 500px;
+    margin-top: 20px;
+    opacity: 0.5px;
+}
+
+#opacity img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+#resize{
+    width: 80%;
+    background-color: aquamarine;
+    text-align: justify;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    resize: both;
+    margin: 10px;
+    overflow: auto;
+}
+
+
+#table table{
+    border: 1px solid purple;
+    border-spacing: 10px;
+    empty-cells: hide;
+
+}   
+    caption{
+        border: 1px solid purple;
+        caption-side: bottom;
+    }
+    tr{
+        border: 1px solid purple;
+    }
+    th{
+        border: 1px solid purple;
+        height: 30px;
+        padding: 15px;
+        text-align: right;
+    }
+    td{
+        border: 1px solid purple;
+        height: 25px;
+        padding: 5px;
+        text-align: center;
+        vertical-align: bottom;
+    }
